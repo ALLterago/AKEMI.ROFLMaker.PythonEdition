@@ -10,9 +10,6 @@ class user:
         self.passWord = None
         self.saveFile = None
 
-    def setUserName(self,userName):
-        self.userName = userName
-
 def loginMeth(userName,passWord):
     print("did some login staff")
 

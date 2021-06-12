@@ -1,0 +1,15 @@
+username: admin
+password: admin
+isAdmin: 1
+gachaSave:
+	playerstats:
+		gender = 0
+		charisma = 100
+		money = 100500
+		work = pornActor.5
+		luck = 100
+	waifus:
+		{id = AkemiHomura
+		relation = gf
+		trust = 100
+		}
