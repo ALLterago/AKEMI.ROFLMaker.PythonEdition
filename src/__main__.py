@@ -1,4 +1,5 @@
 from devTest import SumInt
+from login import user
 
 
 
@@ -7,7 +8,9 @@ TitleLine = "___________________________________________________________________
 print(TitleLine)
 print(Title) #enter block
 print("\nAvailable commands:")
-print("devTest - testing/debug\nTKinter - GUI stuff\nexit - guess what it does by yourself\n")
+print("devTest - testing/debug\nTKinter - GUI stuff\nexit - guess what it does by yourself\ngacha - simple gacha game(main feature by now)\n")
+
+
 
 swcompl = int(0) 
 
