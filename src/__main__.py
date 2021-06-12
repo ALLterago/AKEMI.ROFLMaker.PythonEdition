@@ -1,15 +1,26 @@
 from devTest import SumInt
-from login import user
+from login import user,loginMeth,registerMeth
 
+print("Type \"login\" to log in")
+print("Type \"register\" to register a new user")
+loginState = input()
 
+if loginState == "login":
+    loginMeth(input("Enter your username:"),input("Enter your password:"))
 
+elif loginState == register:
+    registerMeth(input("Enter your username:"),input("Enter your password:"))
+
+print("\n")
 Title = "Akemi\nROFL\nMaker\nPython\nEdition"
 TitleLine = "_______________________________________________________________________"
 print(TitleLine)
 print(Title) #enter block
 print("\nAvailable commands:")
-print("devTest - testing/debug\nTKinter - GUI stuff\nexit - guess what it does by yourself\ngacha - simple gacha game(main feature by now)\n")
-
+print("devTest - testing/debug")
+print("TKinter - GUI stuff")
+print("gacha - simple gacha game(main feature by now)")
+print("exit - guess what it does by yourself")
 
 
 swcompl = int(0) 

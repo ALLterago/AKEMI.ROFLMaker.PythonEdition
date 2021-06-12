@@ -1,3 +1,5 @@
+import os
+
 class user:
     userName = None
     passWord = None
@@ -10,6 +12,12 @@ class user:
 
     def setUserName(self,userName):
         self.userName = userName
+
+def loginMeth(userName,passWord):
+    print("did some login staff")
+
+def registerMeth(userName,passWord):
+    print("did some register stuff")
 
 
     
