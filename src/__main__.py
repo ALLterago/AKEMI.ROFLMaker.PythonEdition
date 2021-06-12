@@ -15,13 +15,12 @@ print("\n")
 Title = "Akemi\nROFL\nMaker\nPython\nEdition"
 TitleLine = "_______________________________________________________________________"
 print(TitleLine)
-print(Title) #enter block
+print(Title) 
 print("\nAvailable commands:")
 print("devTest - testing/debug")
 print("TKinter - GUI stuff")
 print("gacha - simple gacha game(main feature by now)")
 print("exit - guess what it does by yourself")
-
 
 swcompl = int(0) 
 
@@ -47,4 +46,3 @@ while swcompl == 0 :
         
     else:
         print("Wrong command")
-
