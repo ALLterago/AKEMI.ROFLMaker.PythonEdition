@@ -1,2 +1,0 @@
-username: ALLterago
-password: 13371488
