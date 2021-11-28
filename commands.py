@@ -1,5 +1,6 @@
 import time
 
+from os import walk
 from random import seed
 from random import randint
 from rich.progress import Progress,track
@@ -7,7 +8,8 @@ from rich.progress import Progress,track
 command_list = {
 '0':'exit',
 '1':'hacking rofl',
-'2':'steam idler'}
+'2':'walk cool looking console util',
+'3':'steam idler'}
 
 def comExectutor(comid):
 
@@ -21,7 +23,7 @@ def comExectutor(comid):
 		return False
 
 	elif comid == 2:
-		print(comid)
+		walkUtil()
 		return False
 
 	else:
@@ -30,6 +32,7 @@ def comExectutor(comid):
 
 
 def hackingRofl():
+
 	for i in track(range(50),"Initializing hacking utils..."):
 		time.sleep(0.1)
 		
@@ -57,3 +60,10 @@ def hackingRofl():
 
 	for i in track(range(100),"Sending dagestan fighters"):
 		time.sleep(0.1)
+
+
+def walkUtil():
+
+	for i in walk("/"):
+		print(i)
+		time.sleep(0.3)
