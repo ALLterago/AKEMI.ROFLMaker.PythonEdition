@@ -6,6 +6,7 @@ import commands
 
 from rich.console import Console
 
+
 def showBanner(banner_text):
 
 	banner = pyfiglet.figlet_format(banner_text,font="banner3-D")
@@ -20,7 +21,7 @@ def showCommandList():
 
 
 def main():
-	
+
 	isOver = False
 	
 	showBanner("akemi rofl maker")
@@ -33,7 +34,10 @@ def main():
 		except ValueError:
 			print("Invalid id input type")
 			
-		showCommandList()
+		if isOver == True:	
+			pass
+		else:
+			showCommandList()
 
 
 if __name__ == "__main__":

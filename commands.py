@@ -42,6 +42,8 @@ def hackingRofl():
 
 	for i in track(range(100),"Sending dagestan fighters"):
 		time.sleep(0.1)
+		
+	print("Hack compete")
 
 
 def walkUtil(walkTime):
@@ -68,7 +70,6 @@ def comExectutor(comid):
 
 	elif comid == 1:
 		hackingRofl()
-		print("Hack compete")
 		return False
 
 	elif comid == 2:
