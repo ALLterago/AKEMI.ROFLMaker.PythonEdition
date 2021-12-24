@@ -1,5 +1,6 @@
 import time
 
+
 from os import walk
 from random import seed
 from random import randint
@@ -10,7 +11,8 @@ command_list = {
 '0':'exit',
 '1':'hacking rofl',
 '2':'walk cool looking console util',
-'3':'steam idler'}
+'3':'steam idler',
+'4':'autoclicker'}
 
 
 def hackingRofl():
@@ -81,6 +83,7 @@ def comExectutor(comid):
 			except Exception:
 				print("Wrong time format")
 		return False
+
 
 	else:
 		print("Command id unknown")
